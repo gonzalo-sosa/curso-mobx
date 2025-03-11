@@ -1,0 +1,38 @@
+{
+	"name": "mobx",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "bunx --bun vite",
+		"build": "bunx --bun vite build",
+		"format": "biome format",
+		"format:w": "biome format --write",
+		"lint": "biome lint",
+		"lint:w": "biome lint --write",
+		"check": "biome check",
+		"check:w": "biome check --write",
+		"preview": "bunx --bun vite preview"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.14.0",
+		"@emotion/styled": "^11.14.0",
+		"@fontsource/roboto": "^5.1.1",
+		"@mui/icons-material": "^6.4.6",
+		"@mui/material": "^6.4.5",
+		"mobx": "^6.13.6",
+		"mobx-react-lite": "^4.1.0",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/react": "^19.0.10",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react-swc": "^3.8.0",
+		"globals": "^15.15.0",
+		"typescript": "~5.7.2",
+		"typescript-eslint": "^8.24.1",
+		"vite": "^6.2.0"
+	}
+}
