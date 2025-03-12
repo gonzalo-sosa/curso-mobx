@@ -7,7 +7,8 @@ import { observable } from "mobx";
 import TodoList from "./components/TodoList";
 import Person from "./models/Person";
 // import { observableTodoStore } from "./store";
-import { observableTodoStore } from "./store.decorators";
+// import { observableTodoStore } from "./store.decorators.experimental";
+import { observableTodoStore } from "./store.decorators.proposal";
 
 const store = observableTodoStore;
 store.addTodo("read MobX tutorial");

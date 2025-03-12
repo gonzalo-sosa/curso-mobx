@@ -30,7 +30,7 @@ class ObservableTodoStore {
   addTodo = (task: string) => {
     this.todos.push({
       task,
-      id: Date.now().toString(),
+      id: Date.now().toString() + Math.random().toString(),
       completed: false,
     });
   };
